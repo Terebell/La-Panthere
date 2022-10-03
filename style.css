@@ -521,9 +521,13 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+#bloc-3-what-i-do .text-center{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#bloc-4-portfolio a {
+    margin-top: 40px;
 }
 
 .bold-link {
@@ -787,5 +791,20 @@ h4 {
     h2 {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .img-responsive {
+        display: inline;
+    }
+
+    .col-sm-12 {
+        padding: 0;
+    }
+
+    footer .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 }
