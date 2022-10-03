@@ -82,6 +82,19 @@ a:hover {
     color: rgba(255, 255, 255);
 }
 
+.d-bloc .navbar-toggle .icon-bar {
+    background: rgba(255, 255, 255, 1);
+}
+
+.l-bloc .navbar-toggle .icon-bar {
+    color: rgba(0, 0, 0, .6);
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
@@ -729,6 +742,10 @@ h4 {
         right: -1px;
     }
 
+    .navbar-brand {
+        width: 70%;
+    }
+
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
@@ -788,9 +805,26 @@ h4 {
         padding: 5px;
     }
 
+    h1 {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #bloc-6 p {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
     h2 {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    form {
+        margin-left: 5%;
+        margin-right: 5%;
+
+        text-align: left;
     }
 
     .img-responsive {
